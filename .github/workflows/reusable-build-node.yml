@@ -6,4 +6,4 @@ on:
 jobs:
   ci:
     name: run build process
-    uses: ./gha.workflows.build-node.yml@main
+    uses: .github/workflows/gha.workflows.build-node.yml@main
