@@ -1,0 +1,9 @@
+name: Node.js CI - reusable
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  ci:
+    name: run build process
+    uses: ./gha.workflows.build-node.yml@main
